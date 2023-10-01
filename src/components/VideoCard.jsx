@@ -27,7 +27,7 @@ const VideoCard = ({ video }) => {
                       </div>
                   </div>
                   <div className="flex flex-col ml-3 overflow-hidden">
-                      <span className="text-sm font-semibold line-clamp-1">
+                      <span className="text-sm font-semibold line-clamp-2">
                           {video?.title}
                       </span>
                       <span className="text-[12px] font-semibold mt-2 text-white/[0.7] flex items-center">
