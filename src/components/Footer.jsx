@@ -5,13 +5,13 @@ import {MdSubscriptions} from 'react-icons/md'
 
 function Footer() {
   return (
-    <div className='sticky  md:hidden top-0 z-10 flex flex-row items-center justify-center  h-17 px-4 md:px-5 bg-white dark:bg-black  md:translate-x-0'>
-        <div className="w-100 flex justify-between gap-16 py-[1rem]  h-5 items-center md:hidden">
+    <div className='sticky bottom-0 top-0  md:hidden  z-10 flex  items-center justify-center  h-14 px-4 py-6  dark:bg-black'>
+        <div className="w-[100%] flex  justify-evenly  py-[1rem]  h-10 items-center md:hidden">
        
-       <AiFillHome className="text-white text-xl"/>
-       <MdSubscriptions className="text-white text-xl"/>
+      <div> <AiFillHome className="text-white text-2xl"/></div>
+      <div> <MdSubscriptions className="text-white text-2xl"/></div>
 
-       <MdVideoLibrary className="text-white text-xl"/>
+      <div> <MdVideoLibrary className="text-white text-2xl"/></div>
 
       
     </div>
